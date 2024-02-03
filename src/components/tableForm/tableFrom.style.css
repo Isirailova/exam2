@@ -1,0 +1,74 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 40%;
+  height: 300px;
+  color: white;
+  background-color: blue;
+  padding: 30px;
+  border-radius: 3rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+span {
+  position: relative;
+  height: 100vh;
+}
+input {
+  margin: 0 10px;
+  width: 200px;
+  height: 30px;
+  border: 2px solid white;
+  background-color: blue;
+  border-radius: 3rem;
+}
+label {
+  margin-top: -10px;
+  margin-left: 20px;
+  position: absolute;
+  background-color: blue;
+  padding: 0 5px;
+}
+.personal {
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.country label {
+  position: relative;
+  padding: 0;
+  padding-top: 5px;
+}
+.country {
+  width: 228px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 0px;
+}
+
+select {
+  width: 120px;
+  height: 30px;
+  border-radius: 2rem;
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+}
+
+button {
+  border: 2px solid white;
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  border-radius: 2rem;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+}
